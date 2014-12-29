@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+  <!-- This tells the browser how to read the document. -->
+  <meta charset="utf-8">
+
+  <!-- Tells the browser what the title of this page should be. -->
+  <title>Ionic Bonding</title>
+
+  <!-- Load the page styles. -->
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="js/jQuery.js"></script>
+
+
+</head>
+<body unresolved>
+  <div id="main">
+       
+    <div id="header">
+      <h2>Ionic Bonding Practice</h2>
+    </div>
+    
+    <div id="bondingDiv">
+      <h3>Determine the correct subscripts:</h3>
+    </div>
+
+    <div id="ionsDiv">
+    </div>
+    
+    <div id="selectors">
+    <h6>
+    <select id="catSubVal">
+      <option value="1"> </option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+    </select>
+
+    </h6>
+    <h6>
+    <select id="anSubVal">
+      <option value="1"> </option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+    </select>
+  </h6>
+  </div>
+
+  <div id="checkButtons">
+    <h6>
+    <input type="button" id="continue" onclick="getUserInput()" value="Check">
+    <input type="button" id="newProb" onclick="refreshPage()" value="New Problem">
+  </h6>
+  </div>
+
+    <div id="answerDiv">
+    </div>
+
+
+  </div>
+
+  <!--
+  Javascipt source
+  -->
+  <script src="js/javaScript.js"></script>
+
+ 
+</body>
+</html>

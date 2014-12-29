@@ -1,0 +1,173 @@
+* {
+  padding:0;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+
+
+h1 {
+  font-size: 40px;
+  color: #000000;
+  line-height: 48px;
+  display: inline;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+  line-height: 29px;
+  padding: 10px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 20px;
+  color: #000000;
+  line-height: 22px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 17px;
+}
+
+h6 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #4A4A4A;
+  line-height: 17px;
+  display: inline;
+  padding: 10px;
+  text-indent: 25px;
+}
+
+h2, h3, h4, h5 {
+  padding:10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+p {
+  font-size: 14px;
+  color: #333333;
+  line-height: 21px;
+}
+
+a {
+  color: #1199C3;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+#header {
+  background-color: #849134;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.center-content {
+  padding-top: 2.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2.5%
+}
+
+ul {
+  list-style-type: none;
+}
+
+.internationizeBtn{
+  float: right;
+}
+
+
+img {
+  padding: 10px;
+}
+
+
+span {
+  padding: 5px;
+}
+
+
+
+
+
+#bondingDiv {
+  height: 10px;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+#ionsDiv {
+  height: 20px;
+  width: 100%;
+  padding-bottom: 5%;
+  display: left;
+
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+  line-height: 29px;
+  padding: 10px;
+  text-indent: 100px;
+}
+
+#selectors {
+  height: 20px;
+  width: 100%;
+  padding-bottom: 5%;
+  display: left;
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+  line-height: 29px;
+  padding: 10px;
+  text-indent: 120px;
+}
+
+#answerDiv {
+  height: 20px;
+  width: 100%;
+  padding-bottom: 5%;
+  display: left;
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+  line-height: 29px;
+  padding: 10px;
+  text-indent: 100px;
+}
+
+#checkButtons {
+  height: 20px;
+  width: 100%;
+  padding-bottom: 5%;
+  display: left;
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+  line-height: 29px;
+  padding: 10px;
+  text-indent: 100px;
+}
+
+
